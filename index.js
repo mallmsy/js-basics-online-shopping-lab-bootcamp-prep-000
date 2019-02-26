@@ -24,7 +24,7 @@ for (let i = 0; i <= cart.length; i++) {
     whatsInTheCart.push("Your shopping cart is empty.")
   }
   if (cart.length === 1) {
-    whatsInTheCart.push("In your cart, you have " + `${cart.itemName[i]}` + " at " + `${cart.itemPrice[i]}` + ".")
+    whatsInTheCart.push("In your cart, you have " + `${cart[itemName[i]]}` + " at " + `${cart[itemPrice[i]]}` + ".")
   }
   return(whatsInTheCart)
   }
